@@ -1,0 +1,245 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Fugaz+One&family=Lobster+Two:ital,wght@1,700&family=Marck+Script&family=Satisfy&family=Ysabeau:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+}
+.nav{
+    width: 100vw;
+    height: 4rem;
+    background-color: rgb(57, 145, 200);
+    display: flex;
+    justify-content: right;
+    position: sticky;
+    top: 0px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.3);
+}
+.navitem{
+    padding: 2rem;
+    font-size: 2rem;
+    padding-top: 1rem;
+    color: white;
+    text-decoration: none;
+    font-family: 'Ysabeau', sans-serif;
+    
+}
+.navitem:hover{
+    color: rgb(0, 255, 195);
+    transition:.6s linear;
+}
+.section{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://images.wallpaperscraft.com/image/single/books_library_shelves_138556_1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+input{
+    width: 400px;
+    height: 3rem;
+    border: none;
+    border-radius: 2rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-family: 'Ysabeau', sans-serif;
+   
+}
+#Searchbutton{
+    height: 3rem;
+    margin-left: 2rem;
+    width: 5rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: rgb(57, 145, 200);
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Ysabeau', sans-serif;
+    margin-top: 0;
+}
+#Searchbutton:hover{
+    color: rgb(0, 255, 195);
+    text-decoration: underline;
+    transition:.6s ease;
+}
+.left-section{
+    width: 300px;
+    height: 87vh;
+    background-color:   rgb(57, 145, 200);
+    margin: 1rem;
+    /* border-radius: 4rem; */
+    margin-top: 2rem;
+    position: fixed;
+    top: 2.5rem;
+    box-shadow:3px 4px 4px rgba(0, 0, 0, 0.3);
+    
+}
+.outer-section{
+    width: 100vw;
+    height: 1400px;
+    display: flex;
+    
+
+}
+li{
+    list-style: none;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    font-size: 30px;
+      font-family: 'Ysabeau', sans-serif;
+}
+#header{
+    padding-left: 4rem;
+    padding-top: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    font-size: 2rem;
+    color: black;
+}
+.genre{
+    text-decoration: none;
+    color: white;
+   
+}
+.genre:hover{
+      /* text-decoration: underline; */
+      color: rgb(0, 255, 195);
+      transition:.6s linear;
+}
+.card{
+    width: 1050px;
+    height: 33vh;
+    background-color: rgb(57, 145, 200);
+    
+    /* margin-right: 2rem; */
+    /* margin-bottom: 2rem; */
+    border-radius:4rem 0 4rem 0;
+    padding: 2rem;
+    display: flex;
+    
+    
+}
+.card-img{
+    height: 100%;
+    border-radius: 2rem 0 2rem 0;
+}
+.card-header{
+    padding-left: 2rem;
+    color: white;
+    
+}h3{
+    padding-top: 2rem;
+}
+button{
+    margin-top: 3rem;
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 2rem ;
+    color: rgb(57, 145, 200);
+    font-size: 1rem;
+    font-weight: bold;
+}
+.rating{
+    padding-top: 1rem;
+}
+button:hover{
+    color:rgb(0, 255, 195) ;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: 0.5s linear;
+}
+.cardpseudo{
+    width: 80vw;
+    height: 1430px;
+    /* background-color: beige; */
+    margin-top: 2rem;
+    margin-left: 360px;
+    
+}
+#align{
+    margin-top: 2rem;
+}
+.bot{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(57, 145, 200);
+    position: fixed;
+    right: 0;
+    top: 400px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+#botitem{
+    color: white;
+    
+    font-size: 5rem;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#botitem:hover{
+    color: rgb(0, 255, 195);
+    transition:.6s linear;
+    opacity: 1;
+}
+.footer{
+    width: 100vw;
+    height: 160px;
+    background-color: rgb(57, 145, 200);
+    margin-top: 5rem;
+    text-align: center;
+    position: sticky;
+}
+h4{
+    padding-top: 2rem;
+    color: white;
+}
+.fa-brands{
+    padding: 0.5rem;
+    color: white;
+    font-size: 1.5rem;
+}
+p{
+    padding-top: 0.5rem;
+    color: white;
+}
+#viewmore{
+    background-color: rgb(57, 145, 200);
+    color: white;
+    margin-bottom: 2rem;
+    margin-left: 21.5rem;
+    cursor: pointer;
+}
+.section-pseudo{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.section-pseudo:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.5s ease;
+}
+.card:hover{
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;
+}
+#viewmore:hover{
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: 0.5s linear;
+    color:  rgb(0, 255, 195);
+}
+.navtitle{
+    padding-right: 850px;
+    padding-top: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
